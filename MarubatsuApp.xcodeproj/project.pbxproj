@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325E40B01DADE22C00030EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E40AF1DADE22C00030EDF /* AppDelegate.swift */; };
+		325E40B21DADE22C00030EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E40B11DADE22C00030EDF /* ViewController.swift */; };
+		325E40B51DADE22C00030EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E40B31DADE22C00030EDF /* Main.storyboard */; };
+		325E40B71DADE22D00030EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325E40B61DADE22D00030EDF /* Assets.xcassets */; };
+		325E40BA1DADE22D00030EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E40B81DADE22D00030EDF /* LaunchScreen.storyboard */; };
+		3296C8C41DCDD102004986D9 /* memoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296C8C31DCDD102004986D9 /* memoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		325E40AC1DADE22C00030EDF /* MarubatsuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatsuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		325E40AF1DADE22C00030EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		325E40B11DADE22C00030EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		325E40B41DADE22C00030EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325E40B61DADE22D00030EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325E40B91DADE22D00030EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		325E40BB1DADE22D00030EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3296C8C31DCDD102004986D9 /* memoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325E40A91DADE22C00030EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325E40A31DADE22C00030EDF = {
+			isa = PBXGroup;
+			children = (
+				325E40AE1DADE22C00030EDF /* MarubatsuApp */,
+				325E40AD1DADE22C00030EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		325E40AD1DADE22C00030EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325E40AC1DADE22C00030EDF /* MarubatsuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325E40AE1DADE22C00030EDF /* MarubatsuApp */ = {
+			isa = PBXGroup;
+			children = (
+				325E40AF1DADE22C00030EDF /* AppDelegate.swift */,
+				325E40B11DADE22C00030EDF /* ViewController.swift */,
+				325E40B31DADE22C00030EDF /* Main.storyboard */,
+				325E40B61DADE22D00030EDF /* Assets.xcassets */,
+				325E40B81DADE22D00030EDF /* LaunchScreen.storyboard */,
+				325E40BB1DADE22D00030EDF /* Info.plist */,
+				3296C8C31DCDD102004986D9 /* memoViewController.swift */,
+			);
+			path = MarubatsuApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325E40AB1DADE22C00030EDF /* MarubatsuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325E40BE1DADE22D00030EDF /* Build configuration list for PBXNativeTarget "MarubatsuApp" */;
+			buildPhases = (
+				325E40A81DADE22C00030EDF /* Sources */,
+				325E40A91DADE22C00030EDF /* Frameworks */,
+				325E40AA1DADE22C00030EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarubatsuApp;
+			productName = MarubatsuApp;
+			productReference = 325E40AC1DADE22C00030EDF /* MarubatsuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325E40A41DADE22C00030EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = NOWALL;
+				TargetAttributes = {
+					325E40AB1DADE22C00030EDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BBE3B2JF2K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 325E40A71DADE22C00030EDF /* Build configuration list for PBXProject "MarubatsuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325E40A31DADE22C00030EDF;
+			productRefGroup = 325E40AD1DADE22C00030EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325E40AB1DADE22C00030EDF /* MarubatsuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325E40AA1DADE22C00030EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325E40BA1DADE22D00030EDF /* LaunchScreen.storyboard in Resources */,
+				325E40B71DADE22D00030EDF /* Assets.xcassets in Resources */,
+				325E40B51DADE22C00030EDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325E40A81DADE22C00030EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325E40B21DADE22C00030EDF /* ViewController.swift in Sources */,
+				3296C8C41DCDD102004986D9 /* memoViewController.swift in Sources */,
+				325E40B01DADE22C00030EDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		325E40B31DADE22C00030EDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325E40B41DADE22C00030EDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325E40B81DADE22D00030EDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325E40B91DADE22D00030EDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		325E40BC1DADE22D00030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		325E40BD1DADE22D00030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		325E40BF1DADE22D00030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BBE3B2JF2K;
+				INFOPLIST_FILE = MarubatsuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nowall.MarubatsuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		325E40C01DADE22D00030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BBE3B2JF2K;
+				INFOPLIST_FILE = MarubatsuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nowall.MarubatsuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325E40A71DADE22C00030EDF /* Build configuration list for PBXProject "MarubatsuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325E40BC1DADE22D00030EDF /* Debug */,
+				325E40BD1DADE22D00030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325E40BE1DADE22D00030EDF /* Build configuration list for PBXNativeTarget "MarubatsuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325E40BF1DADE22D00030EDF /* Debug */,
+				325E40C01DADE22D00030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325E40A41DADE22C00030EDF /* Project object */;
+}
