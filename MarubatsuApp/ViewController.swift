@@ -61,7 +61,6 @@ class ViewController: UIViewController {
         let ud = UserDefaults.standard
         let questions:[[String: Any]] = ud.object(forKey: "questions") as! [[String: Any]]
         
-        
         if (questions.count > currentQuestionNum) {
             // question定数に現在の問題を格納
             let question = questions[currentQuestionNum]

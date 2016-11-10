@@ -35,6 +35,7 @@ class memoViewController: UIViewController {
         let questionText:String = questionInputBox.text!
         
         let ud = UserDefaults.standard
+        
         var questions: [[String: Any]] = ud.object(forKey: "questions") as! [[String : Any]]
         
         questions.append( [
@@ -43,6 +44,9 @@ class memoViewController: UIViewController {
         ])
         
         ud.setValue(questions, forKey: "questions")
+        
+        showAlert(message: "保存が完了しました!")
+        questionInputBox.text = ""
     }
     
     // deleteボタンが押されたときの処理
@@ -54,9 +58,25 @@ class memoViewController: UIViewController {
         
         // 空のarrayをset(for エラー回避)
         ud.setValue([], forKey: "questions")
+        
+        showAlert(message: "削除が完了しました!")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    // アラートを表示させるための関数(引数として表示させたいmessageをString型で受け取る)
+    func showAlert(message: String) {
+        // アラートを表示させるための準備 (alertControllerをオブジェクト化)
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        // アラートを閉じるための準備
+        let close = UIAlertAction(title: "閉じる", style: .cancel, handler: nil)
+        
+        // 作成したアラートオブジェクトにcloseイベントを追加
+        alert.addAction(close)
+        // 作成したアラートを表示
+        present(alert, animated: true, completion: nil)
     }
 }
