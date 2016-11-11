@@ -58,11 +58,11 @@
 			children = (
 				325E40AF1DADE22C00030EDF /* AppDelegate.swift */,
 				325E40B11DADE22C00030EDF /* ViewController.swift */,
+				3296C8C31DCDD102004986D9 /* memoViewController.swift */,
 				325E40B31DADE22C00030EDF /* Main.storyboard */,
 				325E40B61DADE22D00030EDF /* Assets.xcassets */,
 				325E40B81DADE22D00030EDF /* LaunchScreen.storyboard */,
 				325E40BB1DADE22D00030EDF /* Info.plist */,
-				3296C8C31DCDD102004986D9 /* memoViewController.swift */,
 			);
 			path = MarubatsuApp;
 			sourceTree = "<group>";
