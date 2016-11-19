@@ -1,4 +1,4 @@
-//
+a//
 //  ViewController.swift
 //  MarubatsuApp
 //
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let ud = UserDefaults.standard
+        let ud = UserDefaults.standards
         
         // iPhone端末内にquestionsというkeyで何も保存されていなかったら、空のarrayを保存する(エラー回避)
         if (ud.object(forKey: "questions") == nil) {
@@ -133,7 +133,6 @@ class ViewController: UIViewController {
         let close = UIAlertAction(title: "閉じる", style: .cancel, handler: nil)
         
         // 作成したアラートオブジェクトにcloseイベントを追加
-        alert.addAction(close)
         // 作成したアラートを表示
         present(alert, animated: true, completion: nil)
     }

@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					325E40AB1DADE22C00030EDF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BBE3B2JF2K;
+						DevelopmentTeam = QEJS3UBA6Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -265,11 +265,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BBE3B2JF2K;
+				DEVELOPMENT_TEAM = QEJS3UBA6Y;
 				INFOPLIST_FILE = MarubatsuApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nowall.MarubatsuApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuka.MarubatsuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,11 +279,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BBE3B2JF2K;
+				DEVELOPMENT_TEAM = QEJS3UBA6Y;
 				INFOPLIST_FILE = MarubatsuApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nowall.MarubatsuApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuka.MarubatsuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
